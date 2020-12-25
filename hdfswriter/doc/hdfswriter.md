@@ -260,8 +260,8 @@ HdfsWriter提供向HDFS文件系统指定路径中写入TEXTFile文件和ORCFile
 		"hadoopConfig":{
 		        "dfs.nameservices": "testDfs",
 		        "dfs.ha.namenodes.testDfs": "namenode1,namenode2",
-		        "dfs.namenode.rpc-address.aliDfs.namenode1": "",
-		        "dfs.namenode.rpc-address.aliDfs.namenode2": "",
+		        "dfs.namenode.rpc-address.testDfs.namenode1": "",
+		        "dfs.namenode.rpc-address.testDfs.namenode2": "",
 		        "dfs.client.failover.proxy.provider.testDfs": "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"
 		}
 		```
